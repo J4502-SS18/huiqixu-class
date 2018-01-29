@@ -1,1 +1,39 @@
 /*styles go here*/
+p
+  {color:#666666
+  font-family: Helvetica, Arial, san-serif
+}
+
+h1
+  {font-family: Georgia, "Times New Roman";
+  }
+
+/*"Times New Roman" should be used in quotation marks cuz it has spaces in the word.*/
+
+#container {
+  width: 95%;
+  /*margin=top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin: 0 auto 0 atuo; */
+  margin: 0 auto;
+}
+
+#nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav li {
+  /*text-decoration: none;*/
+}
+
+#nav a:link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #98bf21;
+  font-weight: bold;
+  text-align: center;
+  display:block;
+}
