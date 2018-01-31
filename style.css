@@ -1,0 +1,95 @@
+/* stylesheet */
+p {
+	color: #373737;
+  weight: 3px;
+  text-align: justify;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color:#373737;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 0;
+	  list-style-type: none;
+}
+
+#nav li{
+	margin: 0;
+	padding: 0;
+}
+
+#nav a:link, #nav a:visited {
+	color: #ffffff;
+	background-color: #dcd0c0;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 6px;
+}
+
+#nav a:hover, #nav a:active {
+	background-color: #c0b283;
+}
+
+.email {
+  text-align: center;
+  color: #666666;
+  font-size: 1em;
+}
+
+.email a:hover, .email a:active {
+  color: black;
+}
+
+.centered_image {
+  display:block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+	border: none;
+}
+
+.caption {
+  color: #666666;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size:0.8em;
+	margin-top: 0;
+	text-align: center;
+}
+
+.homepage {
+  text-align: center;
+  color: black;
+}
+
+.homepage a:hover, .homepage a:active {
+  color: #c0b283;
+}
+
+.anotherpage {
+  text-align: center;
+  color: black;
+}
+
+.anotherpage a:hover, .anotherpage a:active {
+  color: #c0b283;
+}
