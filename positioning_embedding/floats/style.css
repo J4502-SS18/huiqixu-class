@@ -6,16 +6,22 @@
 
 img {
   border: none;
-  float: left;
+  width: 100%;
+  /* float: left;
   width: 50%;
-  margin-right: 10px;
+  margin-right: 10px; */
 }
 
-/* .photo_aside {
-  width: 47%;
-  float: left;
+.photo_aside {
+  width: 33%;
+  max-width: 200px;
   margin-right: 10px;
-} */
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
 
 p {
   font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
@@ -35,6 +41,7 @@ h1 {
   font-style: italic;
   /*text-align: left;*/
   margin-top: 5px;
+  /* float:left; */
 }
 
 #nav {
