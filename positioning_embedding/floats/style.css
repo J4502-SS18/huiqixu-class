@@ -6,14 +6,16 @@
 
 img {
   border: none;
-  width: 100%;
+  float: left;
+  width: 50%;
+  margin-right: 10px;
 }
 
-.photo_aside {
+/* .photo_aside {
   width: 47%;
   float: left;
   margin-right: 10px;
-}
+} */
 
 p {
   font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
