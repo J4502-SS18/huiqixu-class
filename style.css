@@ -12,49 +12,62 @@ h1 {
 		font-weight: bold;
 }
 
+h2 {
+	color:#373737;
+	font-family: 'Lora', sans-serif;
+	text-align: justify;
+	font-weight: bold;
+}
+
 body {
   background-color: #f4f4f4;
 }
 
-#container{
-    width: 95%;
-    margin: 0 auto;
-}
+/*Navigation styles*/
 
-#nav {
-    padding: 0;
-	  list-style-type: none;
-}
-
-#nav li{
+.navigation{
+	list-style: none;
 	margin: 0;
-	padding: 0;
+	background: #dcd0c0;
+    padding: 0;
+    display: flex;
+	flex-flow: column;
 }
 
-#nav a:link, #nav a:visited {
-	color: #ffffff;
-	background-color: #dcd0c0;
-	display: block;
+.navigation a {
 	text-decoration: none;
-	text-align: center;
+	display: block;
+	color: grey;
 	font-family: 'Roboto', sans-serif;
-	padding: 6px;
+  text-align:center;
+  padding: 10px;
+  border-bottom:1px solid #c0b283;
 }
 
-#nav a:hover, #nav a:active {
+.navigation li:last-of-type a{
+  border-bottom: none;
+}
+
+.navigation a:hover, .navigation a:active {
 	background-color: #c0b283;
 }
 
-.email {
-  text-align: center;
-  color: #666666;
-  font-size: 0.8em;
-	font-family: 'Roboto Condensed', sans-serif;
-}
+/*These styles activate when the page is larger than 800px wide*/
 
-.email a:hover, .email a:active {
-  color: black;
-}
+@media (min-width:800px) {
+
+    .navigation {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .navigation a:hover {
+    	background: #c0b283;
+    }
 
 .centered_image {
   display:block;
@@ -65,15 +78,6 @@ body {
 
 img {
 	border: none;
-}
-
-.caption {
-  color: #666666;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style: italic;
-  font-size:0.8em;
-	margin-top: 0;
-	text-align: center;
 }
 
 #footer {
