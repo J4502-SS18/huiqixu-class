@@ -1,2 +1,6 @@
-var today=new Date();
-console.log(today); 
+function arbitraryName (x,y) {
+  var myVar=x*y;
+  console.log(myVar);
+}
+
+var myResult=arbitraryName(6,9);
