@@ -16,7 +16,21 @@ nav a {
 }
 
 header {
+    display: flex;
+    flex-flow: row;
     background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
+}
+
+.menu-trigger {
+    order: 1;
+    color: white;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
 }

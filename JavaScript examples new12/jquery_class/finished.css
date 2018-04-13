@@ -1,5 +1,5 @@
 body {
-  background-color: #F8ECC2;
+  background-color: #f4f4f4;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -24,6 +24,7 @@ header {
 }
 
 .menu-trigger {
+    color: white
     order: 1;
     font-size: 1.75em;
     width: 2em;
@@ -49,6 +50,7 @@ nav ul {
     }
 
     .menu-trigger {
+        background-color: white;
         display: none;
     }
 
