@@ -74,27 +74,51 @@ aside p {
   line-height: 1.25;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
 nav ul li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    display: block;
+    border-top: 2px #c0b283 solid;
 }
 
-nav ul li a {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+nav a {
+    color: grey;
+    display: block;
     text-decoration: none;
-    margin-bottom: 1em;
+    padding: 20px 30px;
 }
 
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+nav ul {
+    display: none;
+}
+
+@media screen and (min-width: 700px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
 .title {
     margin-top: 1em;
     margin-bottom: 1em;
-    padding-top: 1em
+    padding-top: 1em;
     border-top: 2px solid #ccc;
 }
 
@@ -128,11 +152,6 @@ a:hover {
   justify-content: space-between;
 }
 
-nav ul {
-  display: flex;
-  flex-flow: column;
-}
-
 .authorbox img {
   /*visibility: hidden;*/
   display: none;
@@ -151,14 +170,6 @@ article:last-of-type {
   border-bottom: none;
 }
 
-@media screen and (min-width: 450px) {
-
-    nav ul {
-        flex-flow: row;
-        justify-content: space-between;
-    }
-
-}
 
 @media screen and (min-width: 600px) {
 
@@ -183,10 +194,6 @@ article:last-of-type {
 @media screen and (min-width: 800px) {
     .item1 {
       margin-right: auto;
-    }
-
-    nav ul li {
-      margin: 5px;
     }
 
     .pullquote {
